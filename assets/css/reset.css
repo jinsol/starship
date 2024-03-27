@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="text"] {
+  border: none;
+  outline: none;
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+  cursor: pointer;
+  background-color: none;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  display: none;
+}
+
+.row {
+  max-width: 1200px;
+  margin: 0 auto;
+}
